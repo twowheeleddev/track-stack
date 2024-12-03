@@ -17,8 +17,17 @@ export default {
           950: '#0F172A',
         },
       },
+      scrollSnapType: {
+        x: 'x mandatory',
+        y: 'y mandatory',
+        none: 'none',
+      },
+      scrollSnapAlign: {
+        start: 'start',
+        center: 'center',
+        end: 'end',
+      },
       animation: {
-        // Animations
         fadeSlide: 'fadeSlide 1.5s ease-out',
         bounceSlow: 'bounceSlow 2s infinite',
         spinFast: 'spinFast 1s linear infinite',
@@ -28,7 +37,6 @@ export default {
         scaleDown: 'scaleDown 0.7s ease-in-out',
       },
       keyframes: {
-        // Keyframes for animations
         fadeSlide: {
           '0%': { opacity: 0, transform: 'translateY(-20px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },

@@ -25,3 +25,13 @@ export const pageTransitionWrapperPropTypes = {
   exit: PropTypes.object, // Animation exit state
   transition: PropTypes.object, // Animation transition properties
 };
+
+export const messagePropTypes = {
+  type: PropTypes.oneOf(['success', 'error']).isRequired,
+  text: PropTypes.string.isRequired,
+};
+
+export const actionButtonsPropTypes = {
+  onClearDirectory: PropTypes.func.isRequired,
+  onViewStats: PropTypes.func.isRequired,
+};
