@@ -14,7 +14,7 @@
   "dependencies": {
     "colorette": "^2.0.20",
     "cors": "^2.8.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
     "music-metadata": "^10.6.2",
     "node-file-dialog": "^1.0.3"
